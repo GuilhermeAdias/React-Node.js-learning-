@@ -5,6 +5,7 @@
 }
 
 .product-list h1{
+    max-width: 250px;
     background: rgba(255, 255, 255, 0.582);
     border-radius: 10px;
     padding: 10px;
@@ -27,23 +28,23 @@
 }
 
 .product-list article a{
-    height: 42px;
-    border-radius: 25px;
-    border: 2px solid #03a5c2fd;
-    background: none;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #03a5c2fd;
+    background: #03a5c2fd;
     margin-top: 10px;
-    color: #03a5c2fd;
+    color: #fff;
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.2s ;
+    transition: all 0.2s;
 }
 
 .product-list article a:hover{
-    background: #03a5c2fd;
+    background: #2dcae6fd;
     color: #fff;
 }
 

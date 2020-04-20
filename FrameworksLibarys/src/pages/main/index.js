@@ -46,7 +46,7 @@ export default class Main extends Component {
         return (
 
             < div className="product-list" >
-                <h1>Contagem de Produtos: {this.state.products.length}</h1>
+                <h1>Resultados: {this.state.products.length}</h1>
                 {products.map(product => (
                     <article key={product._id}>
                         <strong>{product.title}</strong>
