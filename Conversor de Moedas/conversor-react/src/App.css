@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  display: flexbox;
+  justify-content: center ;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.conversor{
+  height: 200px;
+  width: 400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  background: rgb(3, 64, 114);
+  margin: 40px;
+  border-radius: 10px;
+  border: solid rgba(73, 73, 73, 0.575);
+}
+
+.conversor:hover{
+  height: 205px;
+  width: 430px;
+  transition: 0.4s;
+}
+
+.conversor:not(hover){
+  transition: 0.4s;
+}
