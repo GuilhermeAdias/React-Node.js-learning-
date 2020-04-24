@@ -1,0 +1,16 @@
+.cabeçalho{
+    text-align: center;
+    display: flexbox;
+    justify-content: center ;   
+}
+
+.cabeçalho header{
+    height: 45px;
+    color: #ffffff;
+    background-color: rgb(241, 134, 91);
+    padding-top: 20px;
+    padding-bottom: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}

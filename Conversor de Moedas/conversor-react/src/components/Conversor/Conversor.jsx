@@ -17,7 +17,6 @@ export default class Conversor extends Component {
 
         let de_para = `${this.props.moedaA}_${this.props.moedaB}`;
         let url = `http://free.currencyconverterapi.com/api/v5/convert?q=${de_para}&compact=y&apiKey=45428e33589a0e957bb8`;
-        //http://free.currencyconverterapi.com/api/v5/convert?q=${de_para}&compact=y&apiKey=45428e33589a0e957bb8
 
         fetch(url).then(res => {
             return res.json()
@@ -35,7 +34,7 @@ export default class Conversor extends Component {
                 <h2>{this.props.moedaA} para {this.props.moedaB}</h2>
                 <div className="conversao">
                 <input type="text" onChange={(e) => { this.setState({ moedaA_valor: e.target.value }) }} />
-                <button type="button" value="Converter" onClick={this.converter}>Converter</button>
+                <button type="button" value="Converter" onClick={this.converter}>converter</button>
                 </div> 
                 <p>Resultado: {this.state.moedaB_valor}</p>
             </div>
