@@ -1,0 +1,36 @@
+.Mega{
+    justify-content: center;
+}
+
+.Mega input {
+    font-size: 1.4rem;
+    width: 50px;
+    border-style: none;
+    background-color: #08007a ;
+    color: white;
+
+}
+
+.Mega label {
+    margin-right: 15px;
+}
+
+.Mega .GerarNumero{
+    margin-top: 20px;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    border: 0px;
+    width: 280px;
+    background-color:  #08007a ;
+}
+
+.Mega button{
+    margin: 15px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #05bdbd;
+    color: white;
+    font-size: 1.2rem;
+}
