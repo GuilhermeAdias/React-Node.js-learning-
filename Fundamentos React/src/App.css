@@ -1,0 +1,15 @@
+.App .Cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.App h1{
+    background-color:rgba(36, 33, 33, 0.733);
+    border-radius: 5px;
+    border:1px solid rgba(82, 91, 228, 0.356);
+}
+
+ul{
+list-style: none;
+}

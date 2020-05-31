@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Thin.ttf');
+}
+
+*{
+    font-family: 'Roboto', Impact;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    background: linear-gradient(to right, #780206,#061161 );
+}
