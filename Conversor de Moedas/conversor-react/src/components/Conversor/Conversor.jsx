@@ -23,7 +23,7 @@ export default class Conversor extends Component {
             return res.json()
         })
             .then(json => {
-                let cotacao = json[de_para].val;
+                let cotacao = json[de_para];
                 let moedaB_valor = (parseFloat(this.state.moedaA_valor * cotacao)).toFixed(2)
                 this.setState({ moedaB_valor })
             })
